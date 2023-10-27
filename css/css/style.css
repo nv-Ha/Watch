@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@500&family=Exo:ital,wght@0,200;0,400;1,700;1,900&family=Kanit:wght@100&family=Silkscreen&family=VT323&display=swap');
+
+#main{
+    width: 30vw;
+    height: 10vw;
+    border: 1px  solid  black;
+    margin: 5vw auto;
+}
+.app{
+    width: 29vw;
+    height: 9vw;
+    border: 1px  solid  black;
+    margin: 0.5vw 0 0 0.5vw;
+    border-radius: 10px;
+}
+
+.item_list{
+    height: 100%;
+    display: flex;
+    align-items: center;
+	justify-content: center;
+
+}
+
+.item{
+    font-size: 80px;
+    font-family: 'Chivo Mono', monospace;
+    letter-spacing: 1px;
+}
+
+.point{
+    font-size: 90px;
+    padding: 0 0.5vw;
+    margin-top: -1vw;
+}
+
+.ticks{
+    font-size: 35px;
+    margin-top: 1.7vw;
+    margin-left: 1vw;
+}
+
+.time_Point{
+    font-size: 90px;
+    padding: 0 0.5vw;
+    margin-top: -1vw;
+}
+
+.time_Ticks{
+    font-size: 35px;
+    margin-top: 1.7vw;
+    margin-left: 1vw;
+}
+
+
+
+.line_top{
+    display: flex;
+    margin-top: 15%;
+    margin-left: 2.8vw;
+    margin-bottom: -0.5vw;
+	justify-content: center;
+}
+
+.line_top .more:nth-child(1){
+    position: absolute;
+    height: 5vw;
+    border-left: 1px solid black;
+    border-bottom: none;
+    transform: rotate(35deg);
+    margin-left: -29.9vw;
+    margin-top: -0.05vw;
+}
+.line_top .more:nth-child(2){
+    position: absolute;
+    width: 30.1vw;
+    border-top: 1px solid black;
+    margin-left: 2.95vw;
+    margin-top: 0.37vw;
+}
+.line_top .more:nth-child(3){
+    position: absolute;
+    height: 5vw;
+    border-left: 1px solid black;
+    transform: rotate(35deg);
+    margin-right: -30.2vw;
+    margin-top: -0.05vw;
+}
+
+.line_left{
+    float: right;
+    margin-right: 31.6vw;
+    margin-top: 0.85vw;
+}
+
+.line_left .more:nth-child(1){
+    position: absolute;
+    height: 10.03vw;
+    border-left: 1px solid black;
+}
+
+.line_left .more:nth-child(2){
+    position: absolute;
+    width: 5.05vw;
+    border-bottom: 1px solid black;
+    margin-top: 12.1vw;
+    margin-left: -3.99vw;
+    transform: rotate(-55deg);
+}
+
+
+.btn_timeline{
+    position: absolute;
+    margin: 1.6vw 0 0 20vw;
+}
+
+.btn_start{
+    position: absolute;
+    margin: 1.6vw 0 0 -22vw;
+}
+.start{
+    background-color: rgb(32, 211, 47);
+}
+
+.btn_stop{
+    position: absolute;
+    margin: 1.6vw 0 0 -15vw;
+}
+.stop{
+    background-color: rgb(255, 41, 25);
+}
+
+.btn_top{
+    display: block;
+    width: 1.5vw;
+    height: 1.5vw;
+    border: none;
+    display: 0;
+    border: 1px solid black;
+}
+
+.btn_bottom{
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    width: 2vw;
+    height: 1.5vw;
+    margin-top:-1.5vw;
+    margin-left: -0.2vw;
+    border: none;
+    display: 9999;
+}
+
+.down{
+    animation: down 0.3s ease-out;
+}
+
+@keyframes down{
+    from{
+        transform: translateY(0%);
+    }
+    to{
+        transform: translateY(50%);
+    }
+}
+
+.show{
+    display: flex;
+}
+.delete{
+    display: none;
+}
+
+.commit_list{
+    position: absolute;
+    right: 0;
+    margin: 7vw 5vw 0 0;
+}
+.commit{
+    display: flex;
+}
+
+.color1{
+    background-color: #F0F0F0;
+    height: 1vw;
+    width: 2vw;
+    border: 1px solid black;
+}
+
+.color2{
+    background-color: rgb(32, 211, 47);
+    height: 1vw;
+    width: 2vw;
+    border: 1px solid black;
+}
+
+.color3{
+    background-color: rgb(255, 41, 25);
+    height: 1vw;
+    width: 2vw;
+    border: 1px solid black;
+}
+
+.text{
+    margin-left: 1vw;
+    margin-top: -.0vw;
+    font-family:Arial, Helvetica, sans-serif;
+    letter-spacing: 0.5px;
+}
